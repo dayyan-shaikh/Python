@@ -9,3 +9,6 @@ print(a[-13:-6])
 
 for i in a:
     print(i)
+    
+
+    
