@@ -2,7 +2,7 @@ import random
 
 def guess(x):
     random_number=random.randint(1,x)
-    guess=1
+    guess=0
     while guess!=random_number:
         guess=int(int(input("Enter number: ")))
         if guess>random_number:
