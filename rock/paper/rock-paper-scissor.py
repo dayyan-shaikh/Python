@@ -3,7 +3,7 @@ import random
 def games():
     while(True):
         computer=random.choice(['r','p','s'])
-        user=input("Enter: ")
+        user=input("Enter r for rock,p for paper,s for scissor : ").lower()
     #r>s,s>p,p>r
     
         if (user==computer):
