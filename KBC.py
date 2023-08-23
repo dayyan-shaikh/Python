@@ -1,8 +1,7 @@
 # def kbc():
 #     while(True):
 #         print("A:Tiger  B:Lion \nC:Jaguar D:Cheetah")
-#         n = (input("What is the national animal of India: "))
-#         n = n.lower()
+#         n = (input("What is the national animal of India: ")).lower()
 #         if (n == "a" or n == "tiger"):
 #             print("7 crore")
 #             break
@@ -18,12 +17,12 @@ def game():
     for i in l:
         print("Quesion\n ",i[0])
         print("OPtion\n ",i[2])
-        user=input("Enter your anser: ")
-        if user.lower()==i[1].lower():
-            print("HAAAN Merii JAAAN!!!")
+        user=input("Enter your anser: ").lower()
+        if user==i[1].lower():
+            print("Yeg sahi jawab h!!!")
             print("------------------------------------\n")
         else:
-            print("Nikal LAVDEEE")
+            print("Wrong")
             break
     
     
